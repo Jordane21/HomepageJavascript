@@ -1,0 +1,162 @@
+html {
+  margin: auto;
+}
+
+body{
+  font-family: Arial, sans-serif;
+}
+
+a:link{
+  color: #454545;
+  text-decoration: none;
+}
+a:hover {
+  color: #454545c0;
+  text-decoration: underline;
+}
+
+#btn {
+  color: white;
+  text-decoration: none;
+}
+
+#flex-right{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 0.8em;
+}
+
+.icon-top-right{
+  margin: 15px;
+}
+.icon-menu img{
+  height: 30px;
+  width: 30px;
+}
+
+#flex-right button {
+  border: 1px solid #4285f4;
+  font-weight: bold;
+  outline: none;
+  background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+  color: #FFFFFF;
+  font-size: 0.8em;
+  padding: 8px;
+}
+
+#flex-center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+#flex-center img {
+  display: block;
+  margin: auto;
+  width: 65%;
+  height: auto;
+}
+.search-bar{
+  flex-direction: row;
+  width: 800px;
+}
+
+#bar{
+  height: 35px;
+  width: 500px;
+  font-family: Arial, sans-serif;
+  font-size: 1em;
+}
+
+
+.search-button button {
+  border-radius: 2px;
+  color: #757575;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 11px 4px;
+  padding: 12px;
+  text-align: center;
+  border: none;
+  background-color: #F2F2F2
+}
+
+.search-button button:hover{
+  border: 1px solid #c6c6c6;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  color: #222;
+}
+
+.search-button button:focus {
+  outline: 0;
+}
+
+footer{
+  background-color: #F2F2F2;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  border-top: 1px solid;
+  border-top-color: #e4e4e4;
+  font-size: 0.8em;
+}
+
+.footer-1{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  color: #454545;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  padding-left: 5px;
+  border-color: #d2d2d2a2
+}
+
+.footer-2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  line-height: 10px;
+}
+
+
+.footer-left{
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-left p{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.footer-right{
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-right p{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+input {
+  background-image: url('img/small_micro.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  margin: 10px;
+}
+
+input:focus {
+  outline: 0;
+}
+
+input:hover {
+  border: 1px solid #c6c6c6;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  color: #222;
+}
